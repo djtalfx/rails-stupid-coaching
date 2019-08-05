@@ -1,0 +1,57 @@
+// Place all the styles related to the questions controller here.
+
+
+
+body {
+background: rgb(236,236,236);
+background: linear-gradient(90deg, rgba(236,236,236,1) 0%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
+  margin-left: 50px;
+}
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  font-size: 50px;
+  font: sans-serif;
+  font-family: Helvetica;
+  font-weight: 200;
+}
+
+p {
+  font-size: 20px;
+  font: sans-serif;
+  font-family: Helvetica;
+  font-weight: 200;
+}
+
+#input_one {
+ font-size: 20px;
+ width: 25%;
+ height: 50px;
+ margin-bottom: 30px;
+ display: flex;
+ padding: 0 0 0 10px;
+}
+
+#btn {
+  background-image: url("http://www.hammerhouse.com.au/images/team/hammer%20house%20coach%20Sigi.png");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  border: none;
+  padding-top: 12px;
+  border-radius: 50%;
+}
+
+.form {
+  display: flex;
+  align-item: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.back {
+  font-weight: 500;
+}
